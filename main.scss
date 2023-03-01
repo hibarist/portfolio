@@ -158,8 +158,7 @@ body {
   align-items: center;
   @include boxShadowUp();
   .about-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     .bio {
       color: $color-bg;
       font-family: $ff-sec;
@@ -181,22 +180,7 @@ body {
         }
       }
     }
-    .gear {
-      color: $color-bg;
-      font-family: $ff-sec;
-      max-width: 700px;
-      min-width: 200px;
-      h3 {
-        margin-bottom: 0.5rem;
-      }
-      ul {
-        list-style: none;
-        color: darkgray;
-        font-size: 0.9rem;
-        line-height: 1.5;
-      }
-    }
-  }
+   }
   .links {
     margin: 1rem 0;
     display: flex;
