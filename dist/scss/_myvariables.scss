@@ -1,0 +1,43 @@
+// fonts
+$ff-prim: "Orienta", sans-serif; // available wts 400
+$ff-sec: "Inter", sans-serif; // available wts 400,700
+// colors
+$color-bg: #e0e0e0;
+$color-btn: #d550a9;
+$color-accent: #f24e7b;
+$nose: #3b2c2d;
+
+$gradient-header: rgb(48, 41, 53);
+$color-title: rgb(34, 30, 37);
+
+// font size
+
+// buttons
+
+.button--redstone {
+  background: #000;
+  font-family: $ff-sec;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 0;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.button--redstone span {
+  display: block;
+  background: $color-accent;
+  border-radius: 40px;
+  padding: 1.5rem 2rem;
+  border: 1px solid #000;
+  transform: translate(-4px, -4px);
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.button--redstone:hover span {
+  transform: translate(-8px, -8px);
+  background: #db7a94;
+  color: #fff;
+}
+

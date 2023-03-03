@@ -3,11 +3,11 @@ const soundcloudBtn = document.getElementById("soundcloudBtn");
 const youtubeBtn = document.getElementById("youtubeBtn");
 
 contactButton.addEventListener("click", () => {
-    window.open("mailto: hibarist@gmail.com","_blank");
-})
+  window.open("mailto: hibarist@gmail.com", "_blank");
+});
 soundcloudBtn.addEventListener("click", () => {
-    window.open("https://soundcloud.com/hibarist/tracks","_blank");
-})
+  window.open("https://soundcloud.com/hibarist/albums", "_blank");
+});
 youtubeBtn.addEventListener("click", () => {
-    window.open("https://youtube.com/c/hibarist/videos","_blank");
-})
+  window.open("https://youtube.com/c/hibarist/videos", "_blank");
+});
