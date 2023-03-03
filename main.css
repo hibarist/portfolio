@@ -9170,9 +9170,9 @@ body {
   align-items: center;
 }
 .works .ost .playlist2 iframe {
-  margin: 0 0.5rem;
+  margin: 0 1rem;
   border: 0;
-  width: 750px;
+  width: 50vw;
   height: 420px;
 }
 .works .ost button {
